@@ -18,9 +18,6 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install dependencies
-        run: pip install hashlib
-
       - name: Run SHA256 Validation
         run: |
           python validating.py
